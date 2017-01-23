@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2007DDFA1C98196F00CDBAC7 /* ReceiverMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007DDF91C98196F00CDBAC7 /* ReceiverMessageCell.swift */; };
+		200EF5171C917D5400D96964 /* StartDiscoveringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200EF5161C917D5400D96964 /* StartDiscoveringViewController.swift */; };
+		200EF5191C91EA3300D96964 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200EF5181C91EA3300D96964 /* MessagesViewController.swift */; };
+		2017464B1C9C22450024CCF6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2017464A1C9C22450024CCF6 /* UserModel.swift */; };
+		2017464E1C9C4E0A0024CCF6 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2017464D1C9C4E0A0024CCF6 /* UserProfileViewController.swift */; };
+		202673291C7CCB98002E4C79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202673281C7CCB98002E4C79 /* AppDelegate.swift */; };
+		2026732E1C7CCB98002E4C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2026732C1C7CCB98002E4C79 /* Main.storyboard */; };
+		202673311C7CCB98002E4C79 /* Lounjee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2026732F1C7CCB98002E4C79 /* Lounjee.xcdatamodeld */; };
+		202673331C7CCB98002E4C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202673321C7CCB98002E4C79 /* Assets.xcassets */; };
+		202673361C7CCB98002E4C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202673341C7CCB98002E4C79 /* LaunchScreen.storyboard */; };
+		2030D1DA1CAD6A7F00A8EF61 /* DiscoveryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2030D1D91CAD6A7F00A8EF61 /* DiscoveryModel.swift */; };
+		2030D1DC1CAD8DF300A8EF61 /* ConversationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2030D1DB1CAD8DF300A8EF61 /* ConversationModel.swift */; };
+		203B0A111CAEC59200A38E52 /* RequestMatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203B0A101CAEC59200A38E52 /* RequestMatchModel.swift */; };
+		205271D81C86F523008C7A11 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205271D71C86F523008C7A11 /* DiscoveryViewController.swift */; };
+		205271DB1C86F7DD008C7A11 /* DiscoveryCardsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205271DA1C86F7DD008C7A11 /* DiscoveryCardsLayout.swift */; };
+		205271DD1C870AB0008C7A11 /* DiscoveryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205271DC1C870AB0008C7A11 /* DiscoveryCollectionViewCell.swift */; };
+		2054A4C31C8EEA460025A180 /* SignInLinkedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2054A4C21C8EEA460025A180 /* SignInLinkedInViewController.swift */; };
+		2054A4C71C902C2C0025A180 /* LounjeeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2054A4C61C902C2C0025A180 /* LounjeeTabBarController.swift */; };
+		2054A4C91C902CE20025A180 /* LounjeeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2054A4C81C902CE20025A180 /* LounjeeNavigationController.swift */; };
+		2054A4CB1C9034A40025A180 /* NewUserPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2054A4CA1C9034A40025A180 /* NewUserPreferencesViewController.swift */; };
+		205C34421CAAD5C5006E5EF0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C34411CAAD5C5006E5EF0 /* LocationManager.swift */; };
+		2061A8D11C92DA8F00F0F2D2 /* ListMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2061A8D01C92DA8F00F0F2D2 /* ListMessageTableViewCell.swift */; };
+		2061A8D41C92F3FD00F0F2D2 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2061A8D31C92F3FD00F0F2D2 /* ChatViewController.swift */; };
+		2061A8D61C93274C00F0F2D2 /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2061A8D51C93274C00F0F2D2 /* InterestCollectionViewCell.swift */; };
+		206A723A1C971F4200365C83 /* TransmitterMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206A72391C971F4200365C83 /* TransmitterMessageCell.swift */; };
+		206EDB581C8DE88E009E3BD9 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206EDB571C8DE88E009E3BD9 /* OnBoardingViewController.swift */; };
+		208B8CB81CB3C55800B48B9F /* WebDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208B8CB71CB3C55800B48B9F /* WebDetailsViewController.swift */; };
+		20BBDCB21CB416470004FC92 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BBDCB11CB416470004FC92 /* MessageModel.swift */; };
+		20CA0C8E1CB3C2540077F3A0 /* LinkedinProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CA0C8D1CB3C2540077F3A0 /* LinkedinProfileTableViewCell.swift */; };
+		20CCF3E61C85EBAF009DAF1D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CCF3E51C85EBAF009DAF1D /* SettingsViewController.swift */; };
+		20CCF3E81C85ECEB009DAF1D /* ProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CCF3E71C85ECEB009DAF1D /* ProfilePicture.swift */; };
+		20CCF3EA1C860EB4009DAF1D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CCF3E91C860EB4009DAF1D /* AboutViewController.swift */; };
+		20DE115F1CA29C3A00A80B31 /* UserDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE115E1CA29C3A00A80B31 /* UserDescriptionViewController.swift */; };
+		20DE11611CA2AC4F00A80B31 /* LinkedinAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE11601CA2AC4F00A80B31 /* LinkedinAPI.swift */; };
+		20FE7BDB1CA021C300F95911 /* ExperienceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE7BDA1CA021C300F95911 /* ExperienceTableViewCell.swift */; };
+		20FE7BE01CA0229500F95911 /* SummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE7BDE1CA0229500F95911 /* SummaryTableViewCell.swift */; };
+		2863D6CF1D504149002B8E5B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2863D6CE1D504149002B8E5B /* Constants.swift */; };
+		45137E131D79311F00829B64 /* ASHorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45137E121D79311F00829B64 /* ASHorizontalScrollView.swift */; };
+		45137E151D79327000829B64 /* FavoritesHorizontalScrollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45137E141D79327000829B64 /* FavoritesHorizontalScrollCell.swift */; };
+		451DF7CF1D77D23D00EFA06B /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451DF7CE1D77D23D00EFA06B /* FavoriteModel.swift */; };
+		451DF7D11D77DE8100EFA06B /* ListFavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451DF7D01D77DE8100EFA06B /* ListFavoriteTableViewCell.swift */; };
+		453D544F1D94CE0700F23AF0 /* RestAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453D544E1D94CE0700F23AF0 /* RestAPIManager.swift */; };
+		45951C0B1D87009C003C70F2 /* linkedin-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45951C051D86FCEB003C70F2 /* linkedin-sdk.framework */; };
+		510044081CD2015E004BB298 /* TutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510044071CD2015E004BB298 /* TutoViewController.swift */; };
+		5100440B1CD20445004BB298 /* TutoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5100440A1CD20445004BB298 /* TutoView.swift */; };
+		5100440D1CD2044C004BB298 /* TutoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5100440C1CD2044C004BB298 /* TutoView.xib */; };
+		512756B71CBD50BF002E4E72 /* DiscoveryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512756B61CBD50BF002E4E72 /* DiscoveryHeaderView.swift */; };
+		51497EEB1CDB5DF800AE9B59 /* MyriadPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51497EE11CDB5DF800AE9B59 /* MyriadPro-Bold.otf */; };
+		51497EEC1CDB5DF800AE9B59 /* MyriadPro-BoldCond.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51497EE21CDB5DF800AE9B59 /* MyriadPro-BoldCond.otf */; };
+		51497EED1CDB5DF800AE9B59 /* MyriadPro-BoldCondIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51497EE31CDB5DF800AE9B59 /* MyriadPro-BoldCondIt.otf */; };
+		51497EEE1CDB5DF800AE9B59 /* MyriadPro-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51497EE41CDB5DF800AE9B59 /* MyriadPro-BoldIt.otf */; };
+		51497EEF1CDB5DF800AE9B59 /* MyriadPro-Cond.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51497EE51CDB5DF800AE9B59 /* MyriadPro-Cond.otf */; };
+		51497EF01CDB5DF800AE9B59 /* MyriadPro-CondIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51497EE61CDB5DF800AE9B59 /* MyriadPro-CondIt.otf */; };
+		51497EF11CDB5DF800AE9B59 /* MyriadPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51497EE71CDB5DF800AE9B59 /* MyriadPro-It.otf */; };
+		51497EF21CDB5DF800AE9B59 /* MyriadPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51497EE81CDB5DF800AE9B59 /* MyriadPro-Regular.otf */; };
+		51497EF31CDB5DF800AE9B59 /* MyriadPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51497EE91CDB5DF800AE9B59 /* MyriadPro-Semibold.otf */; };
+		51497EF41CDB5DF800AE9B59 /* MyriadPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51497EEA1CDB5DF800AE9B59 /* MyriadPro-SemiboldIt.otf */; };
+		514E41A41C996A27009EE057 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514E41A31C996A27009EE057 /* APIManager.swift */; };
+		514F16431CB6AC3500023062 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F16411CB6AC3500023062 /* CommentView.swift */; };
+		514F16441CB6AC3500023062 /* CommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514F16421CB6AC3500023062 /* CommentView.xib */; };
+		516FA5991CCD3851000C84A3 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516FA5981CCD3851000C84A3 /* AnalyticsManager.swift */; };
+		518F71591CEB53EB00C18CC2 /* ListRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F71581CEB53EB00C18CC2 /* ListRequestTableViewCell.swift */; };
+		51E111D01CAE75040039DFAE /* LounjeeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E111CF1CAE75040039DFAE /* LounjeeConfiguration.swift */; };
+		51E111D21CAE750F0039DFAE /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E111D11CAE750F0039DFAE /* LabelTableViewCell.swift */; };
+		C4EB28022F2C00FE521F923E /* Pods_Lounjee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D525EAF4EB7A567C38F976 /* Pods_Lounjee.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2007DDF91C98196F00CDBAC7 /* ReceiverMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverMessageCell.swift; sourceTree = "<group>"; };
+		200EF5161C917D5400D96964 /* StartDiscoveringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartDiscoveringViewController.swift; sourceTree = "<group>"; };
+		200EF5181C91EA3300D96964 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		2017464A1C9C22450024CCF6 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		2017464D1C9C4E0A0024CCF6 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		202673251C7CCB98002E4C79 /* Lounjee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lounjee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		202673281C7CCB98002E4C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2026732D1C7CCB98002E4C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		202673301C7CCB98002E4C79 /* Lounjee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lounjee.xcdatamodel; sourceTree = "<group>"; };
+		202673321C7CCB98002E4C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		202673351C7CCB98002E4C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		202673371C7CCB98002E4C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2030D1D91CAD6A7F00A8EF61 /* DiscoveryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryModel.swift; sourceTree = "<group>"; };
+		2030D1DB1CAD8DF300A8EF61 /* ConversationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationModel.swift; sourceTree = "<group>"; };
+		203B0A101CAEC59200A38E52 /* RequestMatchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestMatchModel.swift; sourceTree = "<group>"; };
+		205271D71C86F523008C7A11 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		205271DA1C86F7DD008C7A11 /* DiscoveryCardsLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryCardsLayout.swift; sourceTree = "<group>"; };
+		205271DC1C870AB0008C7A11 /* DiscoveryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryCollectionViewCell.swift; sourceTree = "<group>"; };
+		2054A4C21C8EEA460025A180 /* SignInLinkedInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInLinkedInViewController.swift; sourceTree = "<group>"; };
+		2054A4C61C902C2C0025A180 /* LounjeeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LounjeeTabBarController.swift; sourceTree = "<group>"; };
+		2054A4C81C902CE20025A180 /* LounjeeNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LounjeeNavigationController.swift; sourceTree = "<group>"; };
+		2054A4CA1C9034A40025A180 /* NewUserPreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUserPreferencesViewController.swift; sourceTree = "<group>"; };
+		205C34411CAAD5C5006E5EF0 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		2061A8D01C92DA8F00F0F2D2 /* ListMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMessageTableViewCell.swift; sourceTree = "<group>"; };
+		2061A8D31C92F3FD00F0F2D2 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		2061A8D51C93274C00F0F2D2 /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestCollectionViewCell.swift; sourceTree = "<group>"; };
+		206A72391C971F4200365C83 /* TransmitterMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransmitterMessageCell.swift; sourceTree = "<group>"; };
+		206EDB571C8DE88E009E3BD9 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		208B8CB71CB3C55800B48B9F /* WebDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebDetailsViewController.swift; sourceTree = "<group>"; };
+		20BBDCB11CB416470004FC92 /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		20CA0C8D1CB3C2540077F3A0 /* LinkedinProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedinProfileTableViewCell.swift; sourceTree = "<group>"; };
+		20CCF3E51C85EBAF009DAF1D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		20CCF3E71C85ECEB009DAF1D /* ProfilePicture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePicture.swift; sourceTree = "<group>"; };
+		20CCF3E91C860EB4009DAF1D /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		20DE115E1CA29C3A00A80B31 /* UserDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDescriptionViewController.swift; sourceTree = "<group>"; };
+		20DE11601CA2AC4F00A80B31 /* LinkedinAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedinAPI.swift; sourceTree = "<group>"; };
+		20FE7BDA1CA021C300F95911 /* ExperienceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewCell.swift; sourceTree = "<group>"; };
+		20FE7BDE1CA0229500F95911 /* SummaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryTableViewCell.swift; sourceTree = "<group>"; };
+		2863D6CE1D504149002B8E5B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		45137E121D79311F00829B64 /* ASHorizontalScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASHorizontalScrollView.swift; sourceTree = "<group>"; };
+		45137E141D79327000829B64 /* FavoritesHorizontalScrollCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesHorizontalScrollCell.swift; sourceTree = "<group>"; };
+		451DF7CE1D77D23D00EFA06B /* FavoriteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
+		451DF7D01D77DE8100EFA06B /* ListFavoriteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListFavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		453D544E1D94CE0700F23AF0 /* RestAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestAPIManager.swift; sourceTree = "<group>"; };
+		45951C051D86FCEB003C70F2 /* linkedin-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "linkedin-sdk.framework"; sourceTree = "<group>"; };
+		45951C071D86FE09003C70F2 /* Lounjee-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lounjee-Bridging-Header.h"; sourceTree = "<group>"; };
+		510044071CD2015E004BB298 /* TutoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutoViewController.swift; sourceTree = "<group>"; };
+		5100440A1CD20445004BB298 /* TutoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutoView.swift; sourceTree = "<group>"; };
+		5100440C1CD2044C004BB298 /* TutoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutoView.xib; sourceTree = "<group>"; };
+		512756B61CBD50BF002E4E72 /* DiscoveryHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryHeaderView.swift; sourceTree = "<group>"; };
+		51497EE11CDB5DF800AE9B59 /* MyriadPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Bold.otf"; path = "Fonts/MyriadPro-Bold.otf"; sourceTree = "<group>"; };
+		51497EE21CDB5DF800AE9B59 /* MyriadPro-BoldCond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-BoldCond.otf"; path = "Fonts/MyriadPro-BoldCond.otf"; sourceTree = "<group>"; };
+		51497EE31CDB5DF800AE9B59 /* MyriadPro-BoldCondIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-BoldCondIt.otf"; path = "Fonts/MyriadPro-BoldCondIt.otf"; sourceTree = "<group>"; };
+		51497EE41CDB5DF800AE9B59 /* MyriadPro-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-BoldIt.otf"; path = "Fonts/MyriadPro-BoldIt.otf"; sourceTree = "<group>"; };
+		51497EE51CDB5DF800AE9B59 /* MyriadPro-Cond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Cond.otf"; path = "Fonts/MyriadPro-Cond.otf"; sourceTree = "<group>"; };
+		51497EE61CDB5DF800AE9B59 /* MyriadPro-CondIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-CondIt.otf"; path = "Fonts/MyriadPro-CondIt.otf"; sourceTree = "<group>"; };
+		51497EE71CDB5DF800AE9B59 /* MyriadPro-It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-It.otf"; path = "Fonts/MyriadPro-It.otf"; sourceTree = "<group>"; };
+		51497EE81CDB5DF800AE9B59 /* MyriadPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Regular.otf"; path = "Fonts/MyriadPro-Regular.otf"; sourceTree = "<group>"; };
+		51497EE91CDB5DF800AE9B59 /* MyriadPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-Semibold.otf"; path = "Fonts/MyriadPro-Semibold.otf"; sourceTree = "<group>"; };
+		51497EEA1CDB5DF800AE9B59 /* MyriadPro-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MyriadPro-SemiboldIt.otf"; path = "Fonts/MyriadPro-SemiboldIt.otf"; sourceTree = "<group>"; };
+		514E41A31C996A27009EE057 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		514F16411CB6AC3500023062 /* CommentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		514F16421CB6AC3500023062 /* CommentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentView.xib; sourceTree = "<group>"; };
+		516FA5981CCD3851000C84A3 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		518F71581CEB53EB00C18CC2 /* ListRequestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRequestTableViewCell.swift; sourceTree = "<group>"; };
+		51E111CF1CAE75040039DFAE /* LounjeeConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LounjeeConfiguration.swift; sourceTree = "<group>"; };
+		51E111D11CAE750F0039DFAE /* LabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
+		60D525EAF4EB7A567C38F976 /* Pods_Lounjee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lounjee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6336CBF8347B17D92B48F56F /* Pods-Lounjee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lounjee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lounjee/Pods-Lounjee.debug.xcconfig"; sourceTree = "<group>"; };
+		F200C28B7D5E378D1D443E42 /* Pods-Lounjee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lounjee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lounjee/Pods-Lounjee.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5092E2D6BAF2C34A28D110C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45951C0B1D87009C003C70F2 /* linkedin-sdk.framework in Frameworks */,
+				C4EB28022F2C00FE521F923E /* Pods_Lounjee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2017464C1C9C4B7B0024CCF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2030D1D91CAD6A7F00A8EF61 /* DiscoveryModel.swift */,
+				203B0A101CAEC59200A38E52 /* RequestMatchModel.swift */,
+				2017464A1C9C22450024CCF6 /* UserModel.swift */,
+				2030D1DB1CAD8DF300A8EF61 /* ConversationModel.swift */,
+				20BBDCB11CB416470004FC92 /* MessageModel.swift */,
+				51E111CF1CAE75040039DFAE /* LounjeeConfiguration.swift */,
+				205C34411CAAD5C5006E5EF0 /* LocationManager.swift */,
+				2863D6CE1D504149002B8E5B /* Constants.swift */,
+				451DF7CE1D77D23D00EFA06B /* FavoriteModel.swift */,
+				453D544E1D94CE0700F23AF0 /* RestAPIManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2026731C1C7CCB98002E4C79 = {
+			isa = PBXGroup;
+			children = (
+				202673271C7CCB98002E4C79 /* Lounjee */,
+				202673261C7CCB98002E4C79 /* Products */,
+				9E22B76B87431ED48EA8DE31 /* Pods */,
+				FA1F75B0D167F192F8445709 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		202673261C7CCB98002E4C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				202673251C7CCB98002E4C79 /* Lounjee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		202673271C7CCB98002E4C79 /* Lounjee */ = {
+			isa = PBXGroup;
+			children = (
+				510044091CD2042A004BB298 /* Tuto */,
+				5105033B1CB7B56F00CEED2B /* Fonts */,
+				2017464C1C9C4B7B0024CCF6 /* Model */,
+				20CC2F361CA45C500068C320 /* User Profile */,
+				2061A8D21C92DA9900F0F2D2 /* Messages */,
+				205271D91C86F743008C7A11 /* Discovery */,
+				514F16411CB6AC3500023062 /* CommentView.swift */,
+				514F16421CB6AC3500023062 /* CommentView.xib */,
+				202673281C7CCB98002E4C79 /* AppDelegate.swift */,
+				20CCF3E51C85EBAF009DAF1D /* SettingsViewController.swift */,
+				20CCF3E91C860EB4009DAF1D /* AboutViewController.swift */,
+				206EDB571C8DE88E009E3BD9 /* OnBoardingViewController.swift */,
+				2054A4C21C8EEA460025A180 /* SignInLinkedInViewController.swift */,
+				2054A4CA1C9034A40025A180 /* NewUserPreferencesViewController.swift */,
+				20DE115E1CA29C3A00A80B31 /* UserDescriptionViewController.swift */,
+				200EF5161C917D5400D96964 /* StartDiscoveringViewController.swift */,
+				2026732C1C7CCB98002E4C79 /* Main.storyboard */,
+				202673321C7CCB98002E4C79 /* Assets.xcassets */,
+				208B8CB71CB3C55800B48B9F /* WebDetailsViewController.swift */,
+				202673341C7CCB98002E4C79 /* LaunchScreen.storyboard */,
+				202673371C7CCB98002E4C79 /* Info.plist */,
+				2026732F1C7CCB98002E4C79 /* Lounjee.xcdatamodeld */,
+				2054A4C61C902C2C0025A180 /* LounjeeTabBarController.swift */,
+				2054A4C81C902CE20025A180 /* LounjeeNavigationController.swift */,
+				514E41A31C996A27009EE057 /* APIManager.swift */,
+				20DE11601CA2AC4F00A80B31 /* LinkedinAPI.swift */,
+				516FA5981CCD3851000C84A3 /* AnalyticsManager.swift */,
+				45951C071D86FE09003C70F2 /* Lounjee-Bridging-Header.h */,
+			);
+			path = Lounjee;
+			sourceTree = "<group>";
+		};
+		205271D91C86F743008C7A11 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				205271D71C86F523008C7A11 /* DiscoveryViewController.swift */,
+				205271DA1C86F7DD008C7A11 /* DiscoveryCardsLayout.swift */,
+				205271DC1C870AB0008C7A11 /* DiscoveryCollectionViewCell.swift */,
+				512756B61CBD50BF002E4E72 /* DiscoveryHeaderView.swift */,
+			);
+			name = Discovery;
+			sourceTree = "<group>";
+		};
+		2061A8D21C92DA9900F0F2D2 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				45137E121D79311F00829B64 /* ASHorizontalScrollView.swift */,
+				200EF5181C91EA3300D96964 /* MessagesViewController.swift */,
+				2061A8D01C92DA8F00F0F2D2 /* ListMessageTableViewCell.swift */,
+				518F71581CEB53EB00C18CC2 /* ListRequestTableViewCell.swift */,
+				2061A8D51C93274C00F0F2D2 /* InterestCollectionViewCell.swift */,
+				2061A8D31C92F3FD00F0F2D2 /* ChatViewController.swift */,
+				2007DDF91C98196F00CDBAC7 /* ReceiverMessageCell.swift */,
+				206A72391C971F4200365C83 /* TransmitterMessageCell.swift */,
+				451DF7D01D77DE8100EFA06B /* ListFavoriteTableViewCell.swift */,
+				45137E141D79327000829B64 /* FavoritesHorizontalScrollCell.swift */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		20CC2F361CA45C500068C320 /* User Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2017464D1C9C4E0A0024CCF6 /* UserProfileViewController.swift */,
+				51E111D11CAE750F0039DFAE /* LabelTableViewCell.swift */,
+				20FE7BDA1CA021C300F95911 /* ExperienceTableViewCell.swift */,
+				20CA0C8D1CB3C2540077F3A0 /* LinkedinProfileTableViewCell.swift */,
+				20FE7BDE1CA0229500F95911 /* SummaryTableViewCell.swift */,
+				20CCF3E71C85ECEB009DAF1D /* ProfilePicture.swift */,
+			);
+			name = "User Profile";
+			sourceTree = "<group>";
+		};
+		510044091CD2042A004BB298 /* Tuto */ = {
+			isa = PBXGroup;
+			children = (
+				510044071CD2015E004BB298 /* TutoViewController.swift */,
+				5100440A1CD20445004BB298 /* TutoView.swift */,
+				5100440C1CD2044C004BB298 /* TutoView.xib */,
+			);
+			name = Tuto;
+			sourceTree = "<group>";
+		};
+		5105033B1CB7B56F00CEED2B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				51497EE11CDB5DF800AE9B59 /* MyriadPro-Bold.otf */,
+				51497EE21CDB5DF800AE9B59 /* MyriadPro-BoldCond.otf */,
+				51497EE31CDB5DF800AE9B59 /* MyriadPro-BoldCondIt.otf */,
+				51497EE41CDB5DF800AE9B59 /* MyriadPro-BoldIt.otf */,
+				51497EE51CDB5DF800AE9B59 /* MyriadPro-Cond.otf */,
+				51497EE61CDB5DF800AE9B59 /* MyriadPro-CondIt.otf */,
+				51497EE71CDB5DF800AE9B59 /* MyriadPro-It.otf */,
+				51497EE81CDB5DF800AE9B59 /* MyriadPro-Regular.otf */,
+				51497EE91CDB5DF800AE9B59 /* MyriadPro-Semibold.otf */,
+				51497EEA1CDB5DF800AE9B59 /* MyriadPro-SemiboldIt.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		9E22B76B87431ED48EA8DE31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6336CBF8347B17D92B48F56F /* Pods-Lounjee.debug.xcconfig */,
+				F200C28B7D5E378D1D443E42 /* Pods-Lounjee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA1F75B0D167F192F8445709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45951C051D86FCEB003C70F2 /* linkedin-sdk.framework */,
+				60D525EAF4EB7A567C38F976 /* Pods_Lounjee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		202673241C7CCB98002E4C79 /* Lounjee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2026733A1C7CCB98002E4C79 /* Build configuration list for PBXNativeTarget "Lounjee" */;
+			buildPhases = (
+				32B93C30768E53E95D70351D /* [CP] Check Pods Manifest.lock */,
+				202673211C7CCB98002E4C79 /* Sources */,
+				202673231C7CCB98002E4C79 /* Resources */,
+				0535C701C2A713744FDB6DBD /* [CP] Embed Pods Frameworks */,
+				5092E2D6BAF2C34A28D110C5 /* Frameworks */,
+				36393E4D397D23AECADE6303 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lounjee;
+			productName = Lounjee;
+			productReference = 202673251C7CCB98002E4C79 /* Lounjee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2026731D1C7CCB98002E4C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Junior;
+				TargetAttributes = {
+					202673241C7CCB98002E4C79 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = DT6JAZM5AR;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 202673201C7CCB98002E4C79 /* Build configuration list for PBXProject "Lounjee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2026731C1C7CCB98002E4C79;
+			productRefGroup = 202673261C7CCB98002E4C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				202673241C7CCB98002E4C79 /* Lounjee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		202673231C7CCB98002E4C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51497EF11CDB5DF800AE9B59 /* MyriadPro-It.otf in Resources */,
+				202673361C7CCB98002E4C79 /* LaunchScreen.storyboard in Resources */,
+				51497EF31CDB5DF800AE9B59 /* MyriadPro-Semibold.otf in Resources */,
+				202673331C7CCB98002E4C79 /* Assets.xcassets in Resources */,
+				51497EEB1CDB5DF800AE9B59 /* MyriadPro-Bold.otf in Resources */,
+				51497EEC1CDB5DF800AE9B59 /* MyriadPro-BoldCond.otf in Resources */,
+				5100440D1CD2044C004BB298 /* TutoView.xib in Resources */,
+				51497EF21CDB5DF800AE9B59 /* MyriadPro-Regular.otf in Resources */,
+				51497EEF1CDB5DF800AE9B59 /* MyriadPro-Cond.otf in Resources */,
+				51497EED1CDB5DF800AE9B59 /* MyriadPro-BoldCondIt.otf in Resources */,
+				51497EEE1CDB5DF800AE9B59 /* MyriadPro-BoldIt.otf in Resources */,
+				51497EF41CDB5DF800AE9B59 /* MyriadPro-SemiboldIt.otf in Resources */,
+				514F16441CB6AC3500023062 /* CommentView.xib in Resources */,
+				2026732E1C7CCB98002E4C79 /* Main.storyboard in Resources */,
+				51497EF01CDB5DF800AE9B59 /* MyriadPro-CondIt.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0535C701C2A713744FDB6DBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lounjee/Pods-Lounjee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32B93C30768E53E95D70351D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36393E4D397D23AECADE6303 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lounjee/Pods-Lounjee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		202673211C7CCB98002E4C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514E41A41C996A27009EE057 /* APIManager.swift in Sources */,
+				2061A8D61C93274C00F0F2D2 /* InterestCollectionViewCell.swift in Sources */,
+				20CCF3EA1C860EB4009DAF1D /* AboutViewController.swift in Sources */,
+				202673291C7CCB98002E4C79 /* AppDelegate.swift in Sources */,
+				451DF7D11D77DE8100EFA06B /* ListFavoriteTableViewCell.swift in Sources */,
+				45137E131D79311F00829B64 /* ASHorizontalScrollView.swift in Sources */,
+				514F16431CB6AC3500023062 /* CommentView.swift in Sources */,
+				2030D1DC1CAD8DF300A8EF61 /* ConversationModel.swift in Sources */,
+				51E111D21CAE750F0039DFAE /* LabelTableViewCell.swift in Sources */,
+				200EF5191C91EA3300D96964 /* MessagesViewController.swift in Sources */,
+				2863D6CF1D504149002B8E5B /* Constants.swift in Sources */,
+				205271D81C86F523008C7A11 /* DiscoveryViewController.swift in Sources */,
+				205271DB1C86F7DD008C7A11 /* DiscoveryCardsLayout.swift in Sources */,
+				205C34421CAAD5C5006E5EF0 /* LocationManager.swift in Sources */,
+				205271DD1C870AB0008C7A11 /* DiscoveryCollectionViewCell.swift in Sources */,
+				20FE7BE01CA0229500F95911 /* SummaryTableViewCell.swift in Sources */,
+				2007DDFA1C98196F00CDBAC7 /* ReceiverMessageCell.swift in Sources */,
+				510044081CD2015E004BB298 /* TutoViewController.swift in Sources */,
+				206A723A1C971F4200365C83 /* TransmitterMessageCell.swift in Sources */,
+				2054A4C71C902C2C0025A180 /* LounjeeTabBarController.swift in Sources */,
+				512756B71CBD50BF002E4E72 /* DiscoveryHeaderView.swift in Sources */,
+				45137E151D79327000829B64 /* FavoritesHorizontalScrollCell.swift in Sources */,
+				5100440B1CD20445004BB298 /* TutoView.swift in Sources */,
+				20CCF3E81C85ECEB009DAF1D /* ProfilePicture.swift in Sources */,
+				2054A4C91C902CE20025A180 /* LounjeeNavigationController.swift in Sources */,
+				2061A8D41C92F3FD00F0F2D2 /* ChatViewController.swift in Sources */,
+				200EF5171C917D5400D96964 /* StartDiscoveringViewController.swift in Sources */,
+				2017464E1C9C4E0A0024CCF6 /* UserProfileViewController.swift in Sources */,
+				208B8CB81CB3C55800B48B9F /* WebDetailsViewController.swift in Sources */,
+				2061A8D11C92DA8F00F0F2D2 /* ListMessageTableViewCell.swift in Sources */,
+				20DE11611CA2AC4F00A80B31 /* LinkedinAPI.swift in Sources */,
+				20DE115F1CA29C3A00A80B31 /* UserDescriptionViewController.swift in Sources */,
+				2017464B1C9C22450024CCF6 /* UserModel.swift in Sources */,
+				516FA5991CCD3851000C84A3 /* AnalyticsManager.swift in Sources */,
+				453D544F1D94CE0700F23AF0 /* RestAPIManager.swift in Sources */,
+				451DF7CF1D77D23D00EFA06B /* FavoriteModel.swift in Sources */,
+				2030D1DA1CAD6A7F00A8EF61 /* DiscoveryModel.swift in Sources */,
+				2054A4CB1C9034A40025A180 /* NewUserPreferencesViewController.swift in Sources */,
+				202673311C7CCB98002E4C79 /* Lounjee.xcdatamodeld in Sources */,
+				20CA0C8E1CB3C2540077F3A0 /* LinkedinProfileTableViewCell.swift in Sources */,
+				20CCF3E61C85EBAF009DAF1D /* SettingsViewController.swift in Sources */,
+				20FE7BDB1CA021C300F95911 /* ExperienceTableViewCell.swift in Sources */,
+				20BBDCB21CB416470004FC92 /* MessageModel.swift in Sources */,
+				2054A4C31C8EEA460025A180 /* SignInLinkedInViewController.swift in Sources */,
+				206EDB581C8DE88E009E3BD9 /* OnBoardingViewController.swift in Sources */,
+				518F71591CEB53EB00C18CC2 /* ListRequestTableViewCell.swift in Sources */,
+				51E111D01CAE75040039DFAE /* LounjeeConfiguration.swift in Sources */,
+				203B0A111CAEC59200A38E52 /* RequestMatchModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2026732C1C7CCB98002E4C79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2026732D1C7CCB98002E4C79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		202673341C7CCB98002E4C79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202673351C7CCB98002E4C79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		512F81051CAE7935003360AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		512F81061CAE7935003360AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F200C28B7D5E378D1D443E42 /* Pods-Lounjee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: LOUNJEE (DT6JAZM5AR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: LOUNJEE (DT6JAZM5AR)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = Lounjee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "-DRELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lounjee.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "adedb59a-eae5-4dc5-b549-a47e7df21d91";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lounjee/Lounjee-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		512F81071CAE7949003360AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		512F81081CAE7949003360AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6336CBF8347B17D92B48F56F /* Pods-Lounjee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Drescher (7AZNM4KZUJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Drescher (7AZNM4KZUJ)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Lounjee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lounjee.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "672c3b2b-1481-4eb5-ab92-085c24bdf5ed";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lounjee/Lounjee-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		202673201C7CCB98002E4C79 /* Build configuration list for PBXProject "Lounjee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512F81051CAE7935003360AE /* Release */,
+				512F81071CAE7949003360AE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2026733A1C7CCB98002E4C79 /* Build configuration list for PBXNativeTarget "Lounjee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512F81061CAE7935003360AE /* Release */,
+				512F81081CAE7949003360AE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2026732F1C7CCB98002E4C79 /* Lounjee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				202673301C7CCB98002E4C79 /* Lounjee.xcdatamodel */,
+			);
+			currentVersion = 202673301C7CCB98002E4C79 /* Lounjee.xcdatamodel */;
+			path = Lounjee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2026731D1C7CCB98002E4C79 /* Project object */;
+}

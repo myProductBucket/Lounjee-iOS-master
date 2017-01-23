@@ -1,0 +1,34 @@
+PODS:
+  - Intercom (3.0.10)
+  - KTCenterFlowLayout (1.3)
+  - Mixpanel (2.9.7):
+    - Mixpanel/Mixpanel (= 2.9.7)
+  - Mixpanel/Mixpanel (2.9.7)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SwiftyJSON (2.3.2)
+  - TPKeyboardAvoiding (1.3)
+  - UICollectionViewLeftAlignedLayout (1.0.2)
+
+DEPENDENCIES:
+  - Intercom
+  - KTCenterFlowLayout
+  - Mixpanel
+  - SDWebImage (~> 3.7)
+  - SwiftyJSON
+  - TPKeyboardAvoiding
+  - UICollectionViewLeftAlignedLayout
+
+SPEC CHECKSUMS:
+  Intercom: 51d8e09f7d1f863170a494460f74c24a88366f29
+  KTCenterFlowLayout: 2905970d36c653d9a7736c20bfa0d37dcf797d6b
+  Mixpanel: 511b829df757acc1c15d54e50342e85e6023d64d
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  TPKeyboardAvoiding: a5138f318c06fb3e151f886e18ce4a72695d9cbe
+  UICollectionViewLeftAlignedLayout: 830bf6fa5bab9f9b464f62e3384f9d2e00b3c0f6
+
+PODFILE CHECKSUM: 16f7bb810ec833b9bf56a16e5e95b07800f740dc
+
+COCOAPODS: 1.0.1
